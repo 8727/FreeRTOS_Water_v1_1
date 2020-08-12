@@ -482,6 +482,11 @@
               <FileType>1</FileType>
               <FilePath>..\SOURCE\src\nRF24L01.c</FilePath>
             </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOURCE\src\i2c.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

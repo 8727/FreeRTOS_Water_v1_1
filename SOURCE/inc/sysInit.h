@@ -3,14 +3,13 @@
 
 //--------------------------------------------------------------------------------------------------------------------//
 #include "stm32f10x.h"
+#include "string.h"
 
 #include "FreeRTOS.h"
 #include "task.h"
 #include "queue.h"
 
-#include "string.h"
-#include "main.h"
-#include "rtc.h"
+#include "setting.h"
 
 #if defined ACTIVE_SWO
   #include "stdio.h"

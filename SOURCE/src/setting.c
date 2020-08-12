@@ -5,6 +5,7 @@ void Setting(void){
   InitCPU();
   FlashConfigRead();
   RtcInit();
+  I2cInit();
   Nrf24Init();
 //  CanInit();
 //  Rs485Init();
